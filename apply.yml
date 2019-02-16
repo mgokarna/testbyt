@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+
+  roles:
+   # - {role: 'devops',tags:'openshift'}
+   # - {role: 'appsetup', tags: 'appsetup'}
+   - {role: 'configchange', tags: 'configchange'} 
+   # - {role: 'secretchange', tags: 'secretchange'}
