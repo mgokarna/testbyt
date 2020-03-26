@@ -8,7 +8,7 @@ dependencies {
 	compile 'org.jetbrains:annotations:18.0.0'
 	compile 'com.google.code.gson:gson:2.8.6'
 
-	compile 'org.smali:baksmali:2.4.0'
+	compile 'org.smali:baksmali:2.4.3'
 	compile('org.smali:smali:2.4.0') {
 		exclude group: 'com.google.guava'
 	}
